@@ -1,3 +1,4 @@
+pip install nltk
 import nltk
 import streamlit as st
 import re
