@@ -33,7 +33,7 @@ def preprocess(sentence):
     return " ".join(words)
 
 # Load the text file
-file_path = r"C:\Users\Pearl\OneDrive\Documents\GOMYCODE TRAINING\Machine_learning\exercise_wellness text.txt"  # Ensure the file exists
+file_path = "exercise_wellness text.txt"
 try:
     with open(file_path, "r", encoding="utf-8") as file:
         text = file.read()
