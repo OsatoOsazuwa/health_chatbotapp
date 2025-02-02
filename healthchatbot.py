@@ -18,7 +18,6 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('stopwords')
-nltk.download('punkt_tab')
 
 # Load stop words
 stop_words = set(stopwords.words('english'))
@@ -117,7 +116,7 @@ def chatbot(question):
 
 # Streamlit UI
 def main():
-    st.set_page_config(page_title="Exercise & Wellness Chatbot 🏋️‍♂️", page_icon="💪", layout="centered")
+    st.title("Exercise & Wellness Chatbot 🏋️‍♂️")
     st.sidebar.title("⚙️ Settings")
     st.sidebar.write("Enhance your experience with these options:")
 
