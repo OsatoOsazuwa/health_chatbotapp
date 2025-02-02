@@ -16,7 +16,6 @@ from textblob import TextBlob
 # Download required nltk data
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
-#nltk.download('wordnet')
 nltk.download('stopwords')
 nltk.download('punkt_tab')
 
